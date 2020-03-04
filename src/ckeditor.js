@@ -65,6 +65,7 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
+			'heading',
 			'bold',
 			'italic',
 			'link',
@@ -77,7 +78,7 @@ ClassicEditor.defaultConfig = {
 			'subscript',
 			'superscript',
 			'|',
-			'imageUpload',
+			// 'imageUpload',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
